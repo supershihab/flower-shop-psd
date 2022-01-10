@@ -1,0 +1,905 @@
+/* Mini Devices: Small Phones like Galaxy Folds */
+@media all and (min-width: 279px) and (max-width: 320px){
+    /* Code Start */
+    /* ANCHOR Mini HEADER SECTION */
+    .header-section .header-icons{
+        margin: 0px auto 20px;
+        padding: 0px;
+    }
+    .header-section .header-icons li .profile{
+        padding: 0px;
+    }
+    .header-section .header-icons li:nth-child(2),
+    .header-section .header-icons li:nth-child(3){
+        display: none;
+    }
+
+    .header-section .sign-btn{
+        border: none;
+        padding:5px 0px;
+    }
+
+    .header-section .site-logo{
+        width: 50%;
+    }
+
+    /* ANCHOR Mini HERO SECTION */
+    .hero-section .hero-text{
+        /* padding: 25% 0%; */
+        padding: 40px 0px;
+    }
+    .hero-section .hero-text h1{
+        font-size: 1.6rem;
+        line-height: 2rem;
+    }
+    .hero-section .hero-text h5{
+        font-size: 1rem;
+        line-height: 1rem;
+    }
+    .hero-section .hero-text p{
+        font-size: .9rem;
+    }
+    .hero-section .hero-text span .shop,
+    .hero-section .hero-text span .read-more
+    {
+        font-size: .5rem;
+    }
+
+    /* ANCHOR MINI STATS SECTION */
+    .stats-section{
+        padding: 40px 0px;
+    }
+    .stats-section .stat-child{
+        margin: 30px 0px 0px;
+    }
+
+    .stats-section .stats-text h2{
+        font-size: 1.8rem;
+    }
+    .stats-section .stats-text p{
+        font-size: .6rem;
+    }
+
+    /* ANCHOR Mini CARDS SECTION */
+    .cards-section{
+        padding: 20x 0px;
+    }
+    .cards-section .container-fluid{
+        background-size: cover;
+        padding: 0px 5px;
+    }
+    .cards-section .card-header-box{
+        padding: 0px 0px 40px;
+    }
+    .cards-section .card-header-box h2{
+        font-size: 1.4rem;
+        font-weight: 700;
+    }
+    .cards-section .card-header-box p{
+        font-size: .8rem;
+        padding: 0px;
+    }
+
+    .cards-section .card .card-text h4{
+        font-size: 1.5rem;
+    }
+
+    .cards-section .card .card-text p{
+        font-size: .8rem;
+    }
+
+    .cards-section .card .card-text a{
+        font-size: .5rem;
+    }
+    .cards-section .card .card-img:hover{
+        transform: scale(1.0);
+        width: 100%;
+    }
+
+    /* ANCHOR Mini HOW TO SECTION */
+    .how-to-section{
+        padding: 20px 0px 40px;
+    }
+    .how-to-section .container-fluid{
+        background-size: contain;
+    }
+    .how-to-section .how-to-header{
+        padding: 0px 0px 40px;
+    }
+    .how-to-section .how-to-header h2{
+        font-size: 1.4rem;
+    }
+    .how-to-section .how-to-header p{
+        font-size: .9rem;
+    }
+
+    /* ANCHOR Mini DISCOUNT SECTION */
+    .discount-section .discount-bg{
+        background: none;
+    }
+    .discount-section .discount-text{
+        margin: 40px 0px;
+    } 
+    .discount-section .discount-text h5{
+        font-size: .9rem;
+    } 
+    .discount-section .discount-text h2{
+        font-size: 4rem;
+    } 
+    .discount-section .discount-text h6{
+        font-size: 1rem;
+    } 
+
+    /* ANCHOR Mini OUR FLOWERS SECTION */
+    .our-flowers{
+        padding: 40px 0px;
+    }
+    .our-flowers .our-flowers-text{
+        padding: 40px 10px;
+        text-align: center;
+    }
+    .our-flowers .our-flowers-text h3{
+        font-size: 2rem;
+        line-height: 2.2rem;
+    }
+    .our-flowers .our-flowers-text p{
+        font-size: 1rem;
+    }
+    .our-flowers .our-flowers-text a{
+        font-size: .5rem;
+    }
+
+    /* ANCHOR Mini DETAILS FLOWERS SECTION */
+    .our-details{
+        padding: 40px 0px;
+    }
+    .our-details .our-details-text{
+    padding: 40px 0px;
+        margin: 0%;
+    text-align: center;
+    }
+    .our-details .our-details-text h3{
+        font-size: 1.8rem;
+        line-height: 2rem;
+    }
+    .our-details .our-details-text p{
+        font-size: 1rem;
+    }
+    .our-details .our-details-text a{
+        font-size: .5rem;
+    }
+
+    /* ANCHOR Mini OUR WORK SECTION */
+    .our-work{
+        padding: 40px 0px;
+    }
+    .our-work .our-work-text{
+        padding: 40px 10px;
+        text-align: center;
+    }
+    .our-work .our-work-text h3{
+        font-size: 2rem;
+        line-height: 2.2rem;
+    }
+    .our-work .our-work-text p{
+        font-size: 1rem;
+    }
+    .our-work .our-work-text a{
+        font-size: .5rem;
+    }
+
+    /* ANCHOR Mini FEEDBACK SECTION */
+    .feedback-section{
+        padding: 40px 0px;
+    }
+    .feedback-section .feedback-text h2{
+        font-size: 1.9em;
+        line-height: 2.5rem;
+    }
+    .feedback-section .feedback-text p{
+        font-size: 1rem;
+    }
+
+    .feedback-section .feedback-form a{
+        font-size: .6rem;
+    }
+
+    /* ANCHOR Mini FOOTER SECTION */
+    .footer-section{
+        padding: 40px 0px;
+    }
+    .footer-section .footer-text h4{
+        font-size: 1.2rem;
+    }
+    .footer-section .footer-text ul li a,
+    .footer-section .footer-text a,
+    .footer-section .footer-text p,
+    .footer-section .footer-copyright,
+    .footer-section .footer-socials .footer-follow{
+        font-size: .8rem;
+    }
+    /* Code End*/
+}
+    
+    /* Extra Small Devices: Normal Phones */
+@media all and (min-width: 321px) and (max-width: 480px){
+    /* Code Start */
+        /* ANCHOR Extra Small HEADER SECTION */
+    .header-section .header-icons{
+        margin: 0px auto 20px;
+        padding: 0px;
+    }
+    .header-section .header-icons .profile{
+        padding: 0px;
+    }
+    .header-section .header-icons li:nth-child(2),
+    .header-section .header-icons li:nth-child(3){
+        display: none;
+    }
+
+    .header-section .sign-btn{
+        border: none;
+        padding:5px 0px;
+    }
+
+        /* ANCHOR Extra Small HERO SECTION */
+        .hero-section .hero-text{
+            /* padding: 25% 0%; */
+            padding: 40px 0px;
+        }
+        .hero-section .hero-text h1{
+            font-size: 2.2rem;
+            line-height: 2.4rem;
+        }
+        .hero-section .hero-text h5{
+            font-size: 1.2rem;
+            line-height: 1.4rem;
+        }
+        .hero-section .hero-text p{
+            font-size: 1rem;
+        }
+        .hero-section .hero-text span .shop,
+        .hero-section .hero-text span .read-more
+        {
+            font-size: .7rem;
+        }
+
+        /* ANCHOR Extra Small STATS SECTION */
+        .stats-section{
+            padding: 40px 0px;
+        }
+        .stats-section .stat-child{
+            margin: 30px 0px 0px;
+        }
+
+        .stats-section .stats-text h2{
+            font-size: 1.8rem;
+        }
+        .stats-section .stats-text p{
+            font-size: .6rem;
+        }
+
+        /* ANCHOR Extra Small CARDS SECTION */
+    .cards-section{
+        padding: 20x 0px;
+    }
+    .cards-section .container-fluid{
+        background-size: cover;
+        padding: 0px 5px;
+    }
+    .cards-section .card-header-box{
+        padding: 0px 0px 40px;
+    }
+    .cards-section .card-header-box h2{
+        font-size: 1.7rem;
+        font-weight: 700;
+    }
+    .cards-section .card-header-box p{
+        font-size: .9rem;
+        padding: 0px;
+    }
+
+    .cards-section .card .card-text h4{
+        font-size: 1.6rem;
+    }
+
+    .cards-section .card .card-text p{
+        font-size: .9rem;
+    }
+
+    .cards-section .card .card-text a{
+        font-size: .6rem;
+    }
+
+    .cards-section .card .card-img:hover{
+        transform: scale(1.0);
+        width: 100%;
+    }
+
+    /* ANCHOR Extra Small HOW TO SECTION */
+    .how-to-section{
+        padding: 20px 0px 40px;
+    }
+    .how-to-section .container-fluid{
+        background-size: contain;
+    }
+    .how-to-section .how-to-header{
+        padding: 0px 0px 40px;
+    }
+    .how-to-section .how-to-header h2{
+        font-size: 1.5rem;
+    }
+    .how-to-section .how-to-header p{
+        font-size: .9rem;
+    }
+
+    /* ANCHOR Extra Small DISCOUNT SECTION */
+    .discount-section .discount-bg{
+        background: none;
+    }
+    .discount-section .discount-text{
+        margin: 40px 0px;
+    } 
+    .discount-section .discount-text h5{
+        font-size: 1rem;
+    } 
+    .discount-section .discount-text h2{
+        font-size: 4.2rem;
+    } 
+    .discount-section .discount-text h6{
+        font-size: 1.1rem;
+    } 
+
+    /* ANCHOR Extra Small OUR FLOWERS SECTION */
+    .our-flowers{
+        padding: 40px 0px;
+    }
+    .our-flowers .our-flowers-text{
+        padding: 40px 10px;
+        /* background: none; */
+        text-align: center;
+    }
+    .our-flowers .our-flowers-text h3{
+        font-size: 2rem;
+        line-height: 2.2rem;
+    }
+    .our-flowers .our-flowers-text p{
+        font-size: .9rem;
+    }
+    .our-flowers .our-flowers-text a{
+        font-size: .5rem;
+    }
+
+    /* ANCHOR Extra Small OUR DETAILS SECTION */
+    .our-details{
+        padding: 40px 0px;  
+    }
+    .our-details .our-details-text{
+        padding: 40px 10px;
+        margin: 0%;
+        /* background: none; */
+        text-align: center;
+    }
+    .our-details .our-details-text h3{
+        font-size: 2rem;
+        line-height: 2.2rem;
+    }
+    .our-details .our-details-text p{
+        font-size: .9rem;
+    }
+    .our-details .our-details-text a{
+        font-size: .5rem;
+    }
+
+    /* ANCHOR Extra Small OUR WORK SECTION */
+    .our-work{
+        padding: 40px 0px;
+    }
+    .our-work .our-work-text{
+        padding: 40px 10px;
+        /* background: none; */
+        text-align: center;
+    }
+    .our-work .our-work-text h3{
+        font-size: 2rem;
+        line-height: 2.2rem;
+    }
+    .our-work .our-work-text p{
+        font-size: .9rem;
+    }
+    .our-work .our-work-text a{
+        font-size: .5rem;
+    }
+
+    /* ANCHOR Extra Small FEEDBACK SECTION */
+    .feedback-section{
+        padding: 40px 0px;
+    }
+    .feedback-section .feedback-text h2{
+        font-size: 2em;
+        line-height: 2.6rem;
+    }
+    .feedback-section .feedback-text p{
+        font-size: .9rem;
+    }
+
+    .feedback-section .feedback-form a{
+        font-size: .7rem;
+    }
+
+    /* ANCHOR Extra Small FOOTER SECTION */
+    .footer-section{
+        padding: 40px 0px;
+    }
+    .footer-section .footer-text h4{
+        font-size: 1.3rem;
+    }
+    .footer-section .footer-text ul li a,
+    .footer-section .footer-text a,
+    .footer-section .footer-text p,
+    .footer-section .footer-copyright,
+    .footer-section .footer-socials .footer-follow{
+        font-size: .9rem;
+    }
+    
+    /* Code End*/
+}
+    
+    /* Small Devices: Large Phones and Portrait Tablets */
+@media all and (min-width: 481px) and (max-width: 767px){
+    /* Code Start */
+    /* ANCHOR Small HEADER SECTION */
+    .header-section .header-icons{
+        margin: 0px auto 20px;
+        padding: 0px;
+    }
+    .header-section .header-icons li .profile{
+        padding: 0px;
+    }
+    .header-section .header-icons li:nth-child(2),
+    .header-section .header-icons li:nth-child(3){
+        display: none;
+    }
+
+    .header-section .sign-btn{
+        border: none;
+        padding:5px 0px;
+    }
+
+        /* ANCHOR Small HERO SECTION */
+        .hero-section .hero-text{
+            /* padding: 25% 0%; */
+            padding: 40px 0px;
+        }
+        .hero-section .hero-text h1{
+            font-size: 2.5rem;
+            line-height: 2.8rem;
+        }
+        .hero-section .hero-text h5{
+            font-size: 1.4rem;
+            line-height: 1.4rem;
+        }
+        .hero-section .hero-text p{
+            font-size: 1.3rem;
+        }
+        .hero-section .hero-text span .shop,
+        .hero-section .hero-text span .read-more
+        {
+            font-size: .8rem;
+        }
+
+        /* ANCHOR Small STATS SECTION */
+        .stats-section{
+            padding: 40px 0px;
+        }
+        .stats-section .stat-child{
+            margin: 30px 0px 0px;
+        }
+
+        .stats-section .stats-text h2{
+            font-size: 1.8rem;
+        }
+        .stats-section .stats-text p{
+            font-size: .6rem;
+        }
+
+        /* ANCHOR Small CARDS SECTION */
+    .cards-section{
+        padding: 20x 0px;
+    }
+    .cards-section .container-fluid{
+        background-size: cover;
+        padding: 0px 5px;
+    }
+    .cards-section .card-header-box{
+        padding: 0px 0px 40px;
+    }
+    .cards-section .card-header-box h2{
+        font-size: 1.8rem;
+        font-weight: 700;
+    }
+    .cards-section .card-header-box p{
+        font-size: .9rem;
+        padding: 0px;
+    }
+
+    .cards-section .card .card-text h4{
+        font-size: 1.6rem;
+    }
+
+    .cards-section .card .card-text p{
+        font-size: .9rem;
+    }
+
+    .cards-section .card .card-text a{
+        font-size: .6rem;
+    }
+
+    .cards-section .card .card-img:hover{
+        transform: scale(1.0);
+        width: 100%;
+    }
+
+    /* ANCHOR Small HOW TO SECTION */
+    .how-to-section{
+        padding: 20px 0px 40px;
+    }
+    .how-to-section .container-fluid{
+        background-size: contain;
+    }
+    .how-to-section .how-to-header{
+        padding: 0px 0px 40px;
+    }
+    .how-to-section .how-to-header h2{
+        font-size: 1.6rem;
+    }
+    .how-to-section .how-to-header p{
+        font-size: .9rem;
+    }
+
+    /* ANCHOR Small DISCOUNT SECTION */
+    .discount-section .discount-bg{
+        background: none;
+    }
+    .discount-section .discount-text{
+        margin: 40px 0px;
+    } 
+    .discount-section .discount-text h5{
+        font-size: 1.1rem;
+    } 
+    .discount-section .discount-text h2{
+        font-size: 4.3rem;
+    } 
+    .discount-section .discount-text h6{
+        font-size: 1.2rem;
+    } 
+
+    /* ANCHOR Small OUR FLOWERS SECTION */
+    .our-flowers{
+        padding: 40px 0px;
+    }
+    .our-flowers .our-flowers-text{
+        padding: 40px 10px;
+        /* background: none; */
+        text-align: center;
+    }
+    .our-flowers .our-flowers-text h3{
+        font-size: 2rem;
+        line-height: 2.2rem;
+    }
+    .our-flowers .our-flowers-text p{
+        font-size: .9rem;
+    }
+    .our-flowers .our-flowers-text a{
+        font-size: .5rem;
+    }
+
+    /* ANCHOR Small OUR DETAILS SECTION */
+    .our-details{
+        padding: 40px 0px;  
+    }
+    .our-details .our-details-text{
+        padding: 40px 10px;
+        margin: 0%;
+        background: none;
+        text-align: center;
+    }
+    .our-details .our-details-text h3{
+        font-size: 2rem;
+        line-height: 2.2rem;
+    }
+    .our-details .our-details-text p{
+        font-size: .9rem;
+    }
+    .our-details .our-details-text a{
+        font-size: .5rem;
+    }
+
+    /* ANCHOR Small OUR WORK SECTION */
+    .our-work{
+        padding: 40px 0px;
+    }
+    .our-work .our-work-text{
+        padding: 40px 10px;
+        /* background: none; */
+        text-align: center;
+    }
+    .our-work .our-work-text h3{
+        font-size: 2rem;
+        line-height: 2.2rem;
+    }
+    .our-work .our-work-text p{
+        font-size: .9rem;
+    }
+    .our-work .our-work-text a{
+        font-size: .5rem;
+    }
+
+    /* ANCHOR Small FEEDBACK SECTION */
+    .feedback-section{
+        padding: 40px 0px;
+    }
+    .feedback-section .feedback-text h2{
+        font-size: 2em;
+        line-height: 2.6rem;
+    }
+    .feedback-section .feedback-text p{
+        font-size: .9rem;
+    }
+
+    .feedback-section .feedback-form a{
+        font-size: .7rem;
+    }
+
+    /* ANCHOR Small FOOTER SECTION */
+    .footer-section{
+        padding: 40px 0px;
+    }
+    .footer-section .footer-text h4{
+        font-size: 1.4rem;
+    }
+    .footer-section .footer-text ul li a,
+    .footer-section .footer-text a,
+    .footer-section .footer-text p,
+    .footer-section .footer-copyright,
+    .footer-section .footer-socials .footer-follow{
+        font-size: .9rem;
+    }
+    
+    /* Code End*/
+}
+    
+    /* Medium Devices: Landscape Tablets and normal laptops */
+@media all and (min-width: 768px) and (max-width: 1024px){
+    /* Code Start */
+    /* ANCHOR Medium HEADER SECTION */
+    .header-section .header-icons{
+        margin: 0px auto 20px;
+        padding: 0px;
+    }
+
+    .header-section .header-icons li .profile{
+        padding: 0px;
+    }
+    .header-section .header-icons li:nth-child(2),
+    .header-section .header-icons li:nth-child(3){
+        display: none;
+    }
+
+    .header-section .sign-btn{
+        border: none;
+        padding:5px 0px;
+    }
+
+        /* ANCHOR Medium HERO SECTION */
+        .hero-section .hero-text{
+            /* padding: 20% 0%; */
+            padding: 80px 0px;
+        }
+        .hero-section .hero-text h1{
+            font-size: 3rem;
+            line-height: 4rem;
+        }
+        .hero-section .hero-text h5{
+            font-size: 1.7rem;
+            line-height: 2rem;
+        }
+        .hero-section .hero-text p{
+            font-size: 2.5rem;
+            line-height: 3.5rem;
+        }
+        .hero-section .hero-text span .shop,
+        .hero-section .hero-text span .read-more
+        {
+            font-size: 1rem;
+        }
+
+        /* ANCHOR Medium STATS SECTION */
+        .stats-section{
+            padding: 40px 0px;
+        }
+        .stats-section .stat-child{
+            margin: 0px 0px 0px;
+        }
+
+        .stats-section .stats-text h2{
+            font-size: 3rem;
+        }
+        .stats-section .stats-text p{
+            font-size: 1.4rem;
+        }
+
+        /* ANCHOR Medium CARDS SECTION */
+    .cards-section{
+        padding: 20x 0px;
+    }
+    .cards-section .container-fluid{
+        background-size: cover;
+        padding: 0px 5px;
+    }
+    .cards-section .card-header-box{
+        padding: 0px 0px 40px;
+    }
+    .cards-section .card-header-box h2{
+        font-size: 3rem;
+        font-weight: 700;
+    }
+    .cards-section .card-header-box p{
+        font-size: 1.3rem;
+        padding: 0px;
+    }
+
+    .cards-section .card .card-text h4{
+        font-size: 1.5rem;
+    }
+
+    .cards-section .card .card-text p{
+        font-size: .9rem;
+    }
+
+    .cards-section .card .card-text a{
+        font-size: .6rem;
+    }
+
+    .cards-section .card .card-img:hover{
+        transform: scale(1.0);
+        width: 100%;
+    }
+
+    /* ANCHOR Medium HOW TO SECTION */
+    .how-to-section{
+        padding: 20px 0px 40px;
+    }
+    .how-to-section .container-fluid{
+        background-size: contain;
+    }
+    .how-to-section .how-to-header{
+        padding: 0px 0px 40px;
+    }
+    .how-to-section .how-to-header h2{
+        font-size: 3rem;
+    }
+    .how-to-section .how-to-header p{
+        font-size: 1.3rem;
+    }
+
+    /* ANCHOR Medium DISCOUNT SECTION */
+    .discount-section .discount-bg{
+        background: none;
+    }
+    .discount-section .discount-text{
+        margin: 40px 0px;
+    } 
+    .discount-section .discount-text h5{
+        font-size: 2rem;
+    } 
+    .discount-section .discount-text h2{
+        font-size: 6rem;
+    } 
+    .discount-section .discount-text h6{
+        font-size: 2.3rem;
+    }
+    
+    /* ANCHOR Medium OUR FLOWERS SECTION */
+    .our-flowers{
+        padding: 40px 0px;
+    }
+    .our-flowers .our-flowers-text{
+        padding: 40px 10px;
+        /* background: none; */
+        text-align: center;
+    }
+    .our-flowers .our-flowers-text h3{
+        font-size: 3rem;
+        line-height: 3.2rem;
+    }
+    .our-flowers .our-flowers-text p{
+        font-size: 1.3rem;
+    }
+    .our-flowers .our-flowers-text a{
+        font-size: .9rem;
+    }
+
+    /* ANCHOR Medium OUR DETAILS SECTION */
+    .our-details{
+        padding: 40px 0px;
+    }
+    .our-details .our-details-text{
+        padding: 40px 10px;
+    margin: 0%;
+        background: none;
+        text-align: center;
+    }
+    .our-details .our-details-text h3{
+        font-size: 3rem;
+        line-height: 3.2rem;
+    }
+    .our-details .our-details-text p{
+        font-size: 1.3rem;
+    }
+    .our-details .our-details-text a{
+        font-size: .9rem;
+    }
+
+    /* ANCHOR Medium OUR WORK SECTION */
+    .our-work{
+        padding: 40px 0px;
+    }
+    .our-work .our-work-text{
+        padding: 40px 10px;
+        /* background: none; */
+        text-align: center;
+    }
+    .our-work .our-work-text h3{
+        font-size: 3rem;
+        line-height: 3.2rem;
+    }
+    .our-work .our-work-text p{
+        font-size: 1.3rem;
+    }
+    .our-work .our-work-text a{
+        font-size: .9rem;
+    }
+
+    /* ANCHOR Medium FEEDBACK SECTION */
+    .feedback-section{
+        padding: 40px 0px;
+    }
+    .feedback-section .feedback-text h2{
+        font-size: 2.8em;
+        line-height: 2.6rem;
+    }
+    .feedback-section .feedback-text p{
+        font-size: 1.4rem;
+    }
+
+    .feedback-section .feedback-form a{
+        font-size: .9rem;
+    }
+
+    /* ANCHOR Medium FOOTER SECTION */
+    .footer-section{
+        padding: 40px 0px;
+    }
+    .footer-section .footer-text h4{
+        font-size: 1.5rem;
+        text-align: center;
+    }
+    .footer-section .footer-text ul li a,
+    .footer-section .footer-text a,
+    .footer-section .footer-text p,
+    .footer-section .footer-copyright,
+    .footer-section .footer-socials .footer-follow{
+        font-size: 1rem;
+        text-align: center;
+    }
+
+    .footer-section
+    {
+        text-align: center;
+    }
+
+    
+    /* Code End*/
+}
+
